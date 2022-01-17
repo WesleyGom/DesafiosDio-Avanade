@@ -1,0 +1,15 @@
+using System;
+
+class Dio
+{
+    static void Main()
+    {
+        int c, n;
+        c = Convert.ToInt32 (Console.ReadLine());
+        while (c-- > 0)
+        {
+            n = Convert.ToInt32 (Console.ReadLine());
+            Console.WriteLine(n - (int)Math.Sqrt(n));
+        }
+    }
+}
